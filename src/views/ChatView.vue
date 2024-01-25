@@ -1,5 +1,3 @@
 <template>
-    <div class="bg-red-600">
-        Hello World!
-    </div>
+    <div class="bg-red-600">Hello World!</div>
 </template>

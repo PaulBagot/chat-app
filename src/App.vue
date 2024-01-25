@@ -2,6 +2,7 @@
 </script>
 
 <template>
+  <div>Navbar</div>
   <router-view></router-view>
 </template>
 
