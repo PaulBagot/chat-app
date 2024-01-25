@@ -2,8 +2,9 @@
 </script>
 
 <template>
-  <div>Navbar</div>
-  <router-view></router-view>
+  <div class="bg-gray-600 h-full text-white">
+    <router-view></router-view>
+  </div>
 </template>
 
 <style scoped></style>
