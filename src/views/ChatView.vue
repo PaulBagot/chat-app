@@ -12,7 +12,7 @@ const deleteMessage = (id) => {
 
 const addMessage = () => {
     messages.value.push({
-        id : messages.value.length + 1,
+        id : Math.random().toString(36).substring(7),
         content : messageContent.value,
         date: new Date().toLocaleDateString(),
         user: {
